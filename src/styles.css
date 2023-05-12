@@ -70,9 +70,15 @@ nav a:hover, nav li.active a{
   nav li{
     padding: 0px;
     display:block;
+   
   }
 
- 
+  .nav-item{
+    color: var(--primary-color-white);
+  }
+ .navigation{
+  background-color: var(--fourth-color-dark-grey);
+ }
 
 
 }
