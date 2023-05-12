@@ -9,8 +9,74 @@ font-family: 'Outfit', sans-serif;*/
   --fourth-color-dark-grey: #7cbd1e;
 }
 
+
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
+
+
+main{
+  border-top: 4px solid var(--fourth-color-dark-grey);
+}
+
+
+/*Navigation*/
+
+
+nav{
+  padding: 20px 0;
+}
+
+nav ul{
+  margin: 0;
+  padding: 22px;
+  
+}
+
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  padding: 20px;
+}
+
+nav a{
+  text-decoration: none;
+  color: var(--fourth-color-dark-grey);
+  font-weight: 800;
+  font-size: 30px;
+  padding: 20px;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a{
+  color: var(--primary-color-white);
+  background-color: var(--fourth-color-dark-grey);
+}
+
+.icon{
+  max-width: 90px;
+  max-height: 90px;
+}
+
+
+@media (max-width: 960px) {
+  nav a{
+    font-size:20px;
+    
+  }
+  nav li{
+    padding: 0px;
+    display:block;
+  }
+
+ 
+
+
+}
+
+
+
 
