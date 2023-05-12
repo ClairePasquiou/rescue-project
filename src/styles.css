@@ -1,9 +1,16 @@
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-}
-
-
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Outfit', sans-serif;*/
+
+:root {
+  --primary-color-white: #fcf9f9;
+  --secondary-color-light-grey: #f1f864;
+  --third-color-grey: #bceb3c;
+  --fourth-color-dark-grey: #7cbd1e;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
