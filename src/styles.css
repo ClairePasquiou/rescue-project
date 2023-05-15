@@ -16,10 +16,22 @@ h1 {
   font-weight: 800;
 }
 
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url(../images/main.jpg);
+     background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
 
-main{
+
+.main-page{
   border-top: 4px solid var(--fourth-color-dark-grey);
 }
+
+
 
 
 /*Navigation*/
