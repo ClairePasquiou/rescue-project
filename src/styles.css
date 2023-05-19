@@ -27,10 +27,6 @@ header{
 }
 
 
-.main-page{
-  border-top: 4px solid var(--fourth-color-dark-grey);
-}
-
 
 
 
@@ -72,6 +68,38 @@ nav a:hover, nav li.active a{
   max-width: 90px;
   max-height: 90px;
 }
+
+/*Navigation*/
+
+
+
+
+.grid-main{
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 80px;
+  max-width: 1200px;
+  padding: 0 2%;
+}
+
+.main-page{
+  border-top: 4px solid var(--fourth-color-dark-grey);
+}
+
+.col{
+  background-color: #eb3cc5;
+}
+
+.col-6 {
+  background-color: #11528b;
+}
+
+.col-3 {
+  background-color: #3c68eb;
+}
+
+
+
 
 
 @media (max-width: 960px) {
