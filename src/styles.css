@@ -72,31 +72,29 @@ nav a:hover, nav li.active a{
 /*Navigation*/
 
 
-
-
-.grid-main{
-  margin: 0 auto;
-  margin-top: 90px;
-  margin-bottom: 80px;
-  max-width: 1200px;
-  padding: 0 2%;
+.container{
+  padding: 50px;
 }
 
-.main-page{
-  border-top: 4px solid var(--fourth-color-dark-grey);
+a{
+  text-decoration: none;
+  color: black;
 }
 
-.col{
-  background-color: #eb3cc5;
+.news, .donations{
+  text-align: center;
 }
 
-.col-6 {
-  background-color: #11528b;
+
+.col-color{
+  background-color: #fbf3ea;
 }
 
-.col-3 {
-  background-color: #3c68eb;
-}
+
+
+
+
+
 
 
 
