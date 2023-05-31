@@ -87,10 +87,16 @@ a{
 
 
 .col-color{
-  background-color: #fbf3ea;
+  background-color: #eafbea;
 }
 
-
+.hover-effect{
+  transition-duration: 0.5s;
+}
+.hover-effect:hover {
+   -webkit-filter: opacity(.5);
+   filter: opacity(.5);
+}
 
 
 
